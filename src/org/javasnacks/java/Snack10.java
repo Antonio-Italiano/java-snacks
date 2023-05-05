@@ -11,8 +11,8 @@ public class Snack10 {
 		
 		sc.close();
 		
-		int area = (int) ((raggio * raggio) * 3.14);
-		int perimetro = (int) ((2 * raggio) * 3.14);
+		double area = ((raggio * raggio) * 3.14);
+		double perimetro =  ((2 * raggio) * 3.14);
 		System.out.println("valore area: " + area);
 		System.out.println("valore perimetro: " + perimetro);
 	}
